@@ -21,4 +21,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("",user),
     path("addata",add_data),
+    path("django-form",data_forms)
 ]
